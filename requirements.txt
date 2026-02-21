@@ -3,5 +3,12 @@
 # Install Instructions:
 # pip3 install -r requirements.txt
 
-flask==1.1.1
+
+# requirements.txt
+Flask==2.3.3
+# Optional: pin core deps to compatible versions (helps reproducibility)
+Jinja2==3.1.4
+Werkzeug==2.3.7
+itsdangerous==2.1.2
+click==8.1.7
 
